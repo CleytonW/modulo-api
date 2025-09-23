@@ -1,0 +1,42 @@
+{
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "entity.name.type.class",
+                        "entity.name.class",
+                        "storage.type.cs",
+                        "entity.name.type.namespace",
+                        "entity.name.namespace"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.type",
+                        "keyword.other.class",
+                        "keyword.other.namespace"
+                    ],
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "rules": {
+                "class": "#4EC9B0",
+                "namespace": "#4EC9B0",
+                "type": "#4EC9B0",
+                "interface": "#B8D7A3",
+                "struct": "#86C691"
+            }
+        }
+    }
+}
